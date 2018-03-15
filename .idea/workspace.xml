@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8834f2-5d20-4cbf-966c-de4ce1ff329a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/logs/crawler.log" afterPath="$PROJECT_DIR$/logs/crawler.log" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/resolver/xicidaili.go" afterPath="$PROJECT_DIR$/resolver/xicidaili.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+            <state relative-caret-position="1465">
+              <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
               <folding>
-                <element signature="e#14#245#0" expanded="true" />
+                <element signature="e#14#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,7 +30,7 @@
       <file leaf-file-name="storage.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/storage.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="769">
               <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
               <folding>
                 <marker date="1519025978660" expanded="true" signature="769:790" ph="select * fro... t_proxy" />
@@ -54,8 +56,8 @@
       <file leaf-file-name="xicidaili.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resolver/xicidaili.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#18#145#0" expanded="true" />
               </folding>
@@ -63,11 +65,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="node.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../golang.org/x/net/html/node.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="kuaidaili.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resolver/kuaidaili.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#18#146#0" expanded="true" />
               </folding>
@@ -78,8 +90,8 @@
       <file leaf-file-name="data5u.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resolver/data5u.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="337">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="e#18#126#0" expanded="true" />
               </folding>
@@ -87,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helper.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="helper.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resolver/helper.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#18#115#0" expanded="true" />
               </folding>
@@ -114,6 +126,7 @@
       <find>1812</find>
       <find>request</find>
       <find>req</find>
+      <find>Data</find>
       <find>atoi err</find>
     </findStrings>
   </component>
@@ -137,11 +150,11 @@
         <option value="$PROJECT_DIR$/models/ip.go" />
         <option value="$PROJECT_DIR$/storage/storage.go" />
         <option value="$PROJECT_DIR$/resolver/helper.go" />
-        <option value="$PROJECT_DIR$/resolver/xicidaili.go" />
         <option value="$PROJECT_DIR$/resolver/kuaidaili.go" />
         <option value="$PROJECT_DIR$/resolver/data5u.go" />
         <option value="$PROJECT_DIR$/resolver/66ip.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/resolver/xicidaili.go" />
       </list>
     </option>
   </component>
@@ -151,11 +164,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-3" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="831" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -202,6 +213,11 @@
             <path>
               <item name="proxy_crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="proxy_crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proxy_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proxy_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="resolver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proxy_crawler" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +273,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1440" height="831" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16597222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -265,7 +281,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31195652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31176472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -311,12 +327,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resolver/helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#18#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#245#0" expanded="true" />
+            <element signature="e#14#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -388,7 +414,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#245#0" expanded="true" />
+            <element signature="e#14#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,7 +486,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#245#0" expanded="true" />
+            <element signature="e#14#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,7 +536,7 @@
         <state relative-caret-position="1071">
           <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding>
-            <element signature="e#14#245#0" expanded="true" />
+            <element signature="e#14#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,35 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resolver/helper.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#18#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../golang.org/x/net/html/node.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/storage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <marker date="1519025978660" expanded="true" signature="769:790" ph="select * fro... t_proxy" />
-            <marker date="1519025978660" expanded="true" signature="1076:1123" ph="insert into t_proxy... " />
-            <marker date="1519025978660" expanded="true" signature="1273:1304" ph="delete from t_proxy... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resolver/66ip.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -642,20 +639,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resolver/xicidaili.go">
+    <entry file="file://$PROJECT_DIR$/storage/storage.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="769">
+          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
           <folding>
-            <element signature="e#18#145#0" expanded="true" />
+            <marker date="1519025978660" expanded="true" signature="769:790" ph="select * fro... t_proxy" />
+            <marker date="1519025978660" expanded="true" signature="1076:1123" ph="insert into t_proxy... " />
+            <marker date="1519025978660" expanded="true" signature="1273:1304" ph="delete from t_proxy... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resolver/kuaidaili.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="75">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#18#146#0" expanded="true" />
           </folding>
@@ -664,20 +663,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resolver/data5u.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="337">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="e#18#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../golang.org/x/net/html/node.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        <state relative-caret-position="1465">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding>
-            <element signature="e#14#245#0" expanded="true" />
+            <element signature="e#14#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resolver/xicidaili.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resolver/helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#115#0" expanded="true" />
           </folding>
         </state>
       </provider>

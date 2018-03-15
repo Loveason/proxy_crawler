@@ -13,7 +13,6 @@ import (
 	"github.com/astaxie/beego/config"
 	"github.com/astaxie/beego/logs"
 	_ "github.com/go-sql-driver/mysql"
-	"reflect"
 )
 
 var (
@@ -58,19 +57,21 @@ func main() {
 		}()
 	}
 
-	for {
-		if len(ipChan) < 100 {
-			go run(ipChan)
-		}
-		time.Sleep(20 * time.Minute)
-	}
+	run(ipChan)
+
+	//for {
+	//	if len(ipChan) < 100 {
+	//		run(ipChan)
+	//	}
+	//	//time.Sleep(20 * time.Minute)
+	//}
 }
 
 func run(ipChan chan<- *models.IP) {
 	var wg sync.WaitGroup
 	funs := []func(chan<- *models.IP){
-		resolver.KDL,
-		resolver.Data5u,
+		//resolver.KDL,
+		//resolver.Data5u,
 		resolver.Xicidaili,
 		//		resolver.Ip66,
 	}

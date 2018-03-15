@@ -25,11 +25,12 @@ func Xicidaili(ipChan chan<- *models.IP) {
 
 	for _, addr := range addrs {
 
-		resp, _, errs := getContent(addr, XCDL_HOST)
+		resp, content, errs := getContent(addr, XCDL_HOST)
 		if errs != nil {
 			logs.Error("get err.url:%s,errs:%+v", addr, errs)
 			continue
 		}
+		logs.Trace(content)
 		doc, err := goquery.NewDocumentFromResponse(resp)
 		if err != nil {
 			logs.Error("read doc err:%+v", err)
@@ -42,6 +43,7 @@ func Xicidaili(ipChan chan<- *models.IP) {
 		}
 
 		pageNodes := doc.Find("#body > div.pagination > a").Nodes
+		logs.Trace("pageNodes length:%d", len(pageNodes))
 		for _, v := range pageNodes {
 			logs.Trace("node:%s", v.Data)
 		}
@@ -55,7 +57,8 @@ func Xicidaili(ipChan chan<- *models.IP) {
 
 		for i := maxPageSize; i > 1; i-- {
 			addr = fmt.Sprintf("%s%d", addr, i)
-			resp, _, errs = getContent(addr, XCDL_HOST)
+			resp, content, errs = getContent(addr, XCDL_HOST)
+			logs.Trace(content)
 			if errs != nil {
 				logs.Error("get err.url:%s,errs:%+v", addr, errs)
 				continue
