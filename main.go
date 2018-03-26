@@ -57,38 +57,29 @@ func main() {
 		}()
 	}
 
-	run(ipChan)
-
-	//for {
-	//	if len(ipChan) < 100 {
-	//		run(ipChan)
-	//	}
-	//	//time.Sleep(20 * time.Minute)
-	//}
+	for {
+		if len(ipChan) < 100 {
+			run(ipChan)
+			time.Sleep(10 * time.Minute)
+		}
+	}
 }
 
 func run(ipChan chan<- *models.IP) {
 	var wg sync.WaitGroup
 	funs := []func(chan<- *models.IP){
-		//resolver.KDL,
-		//resolver.Data5u,
-		resolver.Xicidaili,
-		//		resolver.Ip66,
+		resolver.NewXiciDaili().Resolve,
+		resolver.NewIP66().Resolve,
+		resolver.NewData5u().Resolve,
+		resolver.NewKuaiDaili().Resolve,
 	}
+
 	for _, f := range funs {
-		logs.Trace("f:%+v", f)
 		wg.Add(1)
 		go func() {
 			f(ipChan)
 			wg.Done()
 		}()
-		//go func(f func() []*models.IP) {
-		//	temp := f()
-		//	for _, v := range temp {
-		//		ipChan <- v
-		//	}
-		//	wg.Done()
-		//}(f)
 	}
 	wg.Wait()
 	logs.Trace("All resolver finished.")

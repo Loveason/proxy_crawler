@@ -8,6 +8,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	"github.com/parnurzeal/gorequest"
+	"time"
 )
 
 var (
@@ -27,13 +28,16 @@ func InitDB(dataSource string) error {
 
 func CheckProxy(ip *models.IP) {
 	if CheckIP(ip) {
+		logs.Trace("good ip:%+v", ip)
 		ProxyAdd(ip)
+	} else {
+		logs.Trace("bad ip:%+v", ip)
 	}
 }
 
 func CheckIP(ip *models.IP) bool {
 	pollURL := "http://httpbin.org/get"
-	resp, _, errs := gorequest.New().Proxy("http://" + ip.Url).Get(pollURL).End()
+	resp, _, errs := gorequest.New().Timeout(time.Second * 5).Proxy("http://" + ip.Url).Get(pollURL).End()
 	if errs != nil {
 		return false
 	}
@@ -55,6 +59,7 @@ func CheckProxyDB() {
 		wg.Add(1)
 		go func(v *models.IP) {
 			if !CheckIP(v) {
+				logs.Trace("bad ip del.%+v", v)
 				ProxyDel(v)
 			}
 			wg.Done()
