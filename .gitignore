@@ -1,0 +1,6 @@
+*.exe
+
+.idea/
+build/
+test/
+monitor/monitor
